@@ -1,0 +1,61 @@
+html,
+body {
+	height: 100%;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	outline: 0;
+}
+
+body {
+	font-size: 16px;
+	line-height: 1.5;
+	color: #333;
+	font-family: sans-serif;
+	padding: 15px;
+}
+
+.chat {
+	max-width: 700px;
+	margin: 1em auto;
+}
+
+.chatWin {
+	height: 300px;
+	border: 1px solid #eee;
+	padding: 15px;
+}
+
+
+.chatInner p  {
+	margin-bottom: 15px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #eee
+}
+
+.chat input {
+	width: 100%;
+	padding: 15px;
+	border: 1px solid #eee;
+	font-size: inherit;
+}
+
+.chat button {
+	display: block;
+	width: 100%;
+	padding: 15px;
+	background: lightblue;
+	border-style: solid;
+	border: 1px solid #eee;
+	border-top: none;
+	font-size: inherit;
+	color: white;
+	cursor: pointer;
+	position: relative;
+}
+.chat button:active {
+	top: 1px
+}

@@ -17,6 +17,13 @@ body {
 	font-family: sans-serif;
 	padding: 15px;
 }
+h1 {
+	margin-bottom: 25px;
+}
+
+h1 span {
+	color: orange;
+}
 
 .chat {
 	max-width: 700px;
@@ -27,6 +34,7 @@ body {
 	height: 300px;
 	border: 1px solid #eee;
 	padding: 15px;
+	overflow: auto;
 }
 
 
